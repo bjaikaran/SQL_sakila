@@ -1,5 +1,6 @@
 # SQL_sakila
-SQL assignment using MySQL "sakila" database example. 
+SQL assignment using MySQL "sakila" database example.\
+
 ##--------------------------------------------------------------------------------
 ## Homework Assignment
 
