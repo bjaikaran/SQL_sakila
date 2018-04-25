@@ -1,6 +1,6 @@
 SELECT
     title as 'Film Title',
-    COUNT(actor_id) AS 'No. of Actors in Title'
+    COUNT(actor_id) as 'No. of Actors in Title'
 FROM
     film f,
     film_actor fa
