@@ -25,7 +25,6 @@
   * [4c.](./SQL-No_04/SQL_4c.sql)  Oh, no! The actor `HARPO WILLIAMS` was accidentally entered in the `actor` table as `GROUCHO WILLIAMS`, the name of Harpo's second cousin's husband's yoga teacher. Write a query to fix the record.  	
   * [4d.](./SQL-No_04/SQL_4d.sql)  Perhaps we were too hasty in changing `GROUCHO` to `HARPO`. It turns out that `GROUCHO` was the correct name after all! In a single query, if the first name of the actor is currently `HARPO`, change it to `GROUCHO`. Otherwise, change the first name to `MUCHO GROUCHO`, as that is exactly what the actor will be with the grievous error. BE CAREFUL NOT TO CHANGE THE FIRST NAME OF EVERY ACTOR TO `MUCHO GROUCHO`, HOWEVER! (Hint: update the record using a unique identifier.)
 ***
-<br></br>
 [_**Section 5 SQL**_](./SQL-No_05)
   * [5a.](./SQL-No_05/SQL_5a.sql)  You cannot locate the schema of the `address` table. Which query would you use to re-create it? 
 ***
