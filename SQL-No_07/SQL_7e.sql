@@ -1,6 +1,6 @@
 SELECT
-    title AS 'Film Title by Most Frequently Rented',
-    COUNT(title) as 'Frequency'
+    title as 'Film Title by Most Frequently Rented',
+    COUNT(title) as 'Rental Frequency (highest to lowest)'
 FROM
     sakila.inventory i,
     sakila.rental r,
@@ -14,4 +14,4 @@ WHERE
     
 GROUP BY
     	title
-ORDER BY COUNT(title) DESC
+ORDER BY COUNT(title) DESC;
