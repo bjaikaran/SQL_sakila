@@ -1,5 +1,5 @@
 SELECT
-    COUNT(i.film_id) AS 'Hunchback Impossible Copies'
+    COUNT(i.film_id) as 'Hunchback Impossible Copies'
 FROM
     sakila.inventory i,
     sakila.film f
