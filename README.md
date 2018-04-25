@@ -25,7 +25,6 @@
 [_**Section 5 SQL**_](./SQL-No_05)
   * [5a.](./SQL-No_05/SQL_5a.sql)  You cannot locate the schema of the `address` table. Which query would you use to re-create it? 
 ***
-<br></br> 
 [_**Section 6 SQL**_](./SQL-No_06)
   * [6a.](./SQL-No_06/SQL_6a.sql)  Use `JOIN` to display the first and last names, as well as the address, of each staff member. Use the tables `staff` and `address`:
   * [6b.](./SQL-No_06/SQL_6b.sql)  Use `JOIN` to display the total amount rung up by each staff member in August of 2005. Use tables `staff` and `payment`.   	
@@ -33,7 +32,6 @@
   * [6d.](./SQL-No_06/SQL_6d.sql)  How many copies of the film `Hunchback Impossible` exist in the inventory system?
   * [6e.](./SQL-No_06/SQL_6e.sql)  Using the tables `payment` and `customer` and the `JOIN` command, list the total paid by each customer. List the customers alphabetically by last name:
 ***
-<br></br>
 [_**Section 7 SQL**_](./SQL-No_07)
   * [7a.](./SQL-No_07/SQL_7a.sql)  The music of Queen and Kris Kristofferson have seen an unlikely resurgence. As an unintended consequence, films starting with the letters `K` and `Q` have also soared in popularity. Use subqueries to display the titles of movies starting with the letters `K` and `Q` whose language is English. 
   * [7b.](./SQL-No_07/SQL_7b.sql)  Use subqueries to display all actors who appear in the film `Alone Trip`.   
