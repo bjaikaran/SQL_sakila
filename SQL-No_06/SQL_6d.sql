@@ -5,4 +5,4 @@ FROM
     sakila.film f
 WHERE
     	i.film_id = f.film_id 
-	AND	f.title LIKE 'HUNCHBACK IMPOSSIBLE'
+	AND	f.title LIKE 'HUNCHBACK IMPOSSIBLE';
