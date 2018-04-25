@@ -1,7 +1,7 @@
 SELECT
-    country_id,
-    country
+    country,
+    country_id
 FROM
-    sakila.country c
+    sakila.country
 WHERE
-    country IN('Afghanistan', 'Bangladesh', 'China')
+    country IN('Afghanistan', 'Bangladesh', 'China');
