@@ -1,13 +1,8 @@
-SELECT
-    last_name,
-    COUNT(last_name) AS lastNamecount
-FROM
-    sakila.actor
+UPDATE
+	sakila.actor
+SET 
+	first_name = 'HARPO'
 WHERE
-    (
-        SELECT COUNT(last_name) AS lastNamecount FROM sakila.actor
-    ) > 1
-GROUP BY
-    last_name
-ORDER BY
-    lastNameCount DESC;
+		first_name = 'GROUCHO'
+	AND	last_name = 'WILLIAMS'
+	AND	actor_id = 172;
