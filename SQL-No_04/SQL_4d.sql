@@ -4,4 +4,4 @@ UPDATE
 SET
     first_name = 'GROUCHO'
 WHERE
-    actor_id = 172
+    actor_id = 172;
