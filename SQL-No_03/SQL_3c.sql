@@ -5,7 +5,7 @@ DROP PROCEDURE IF EXISTS middle_name_Drop;
 		    DECLARE CONTINUE HANDLER FOR SQLEXCEPTION BEGIN END;
 	        	ALTER TABLE
                 	sakila.actor
-				DROP middle_name;
+			DROP middle_name;
 		END //
 	DELIMITER ;
 CALL middle_name_Drop();
