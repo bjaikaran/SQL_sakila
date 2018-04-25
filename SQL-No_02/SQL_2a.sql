@@ -3,4 +3,4 @@ SELECT
 FROM
     sakila.actor a
 WHERE
-    first_name LIKE 'Joe'
+    first_name LIKE 'Joe';
