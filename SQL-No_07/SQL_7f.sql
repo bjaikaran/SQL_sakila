@@ -9,4 +9,4 @@ WHERE
 		t.store_id = s.store_id
 	AND	s.staff_id = p.staff_id
 
-GROUP BY t.store_id
+GROUP BY t.store_id;
