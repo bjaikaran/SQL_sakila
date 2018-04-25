@@ -1,9 +1,9 @@
 SELECT
     *
 FROM
-    sakila.actor a
+    sakila.actor
 WHERE
     last_name LIKE '%LI%'
 ORDER BY
     last_name,
-    first_name ASC
+    first_name ASC;
