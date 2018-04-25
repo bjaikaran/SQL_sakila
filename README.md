@@ -1,4 +1,8 @@
 # SQL HW using MySQL sakila database
+<p align="center">
+<image align="center" src="https://raw.githubusercontent.com/bjaikaran/SQL_sakila/master/markup_note.png" alt="NOTE ON GRADING"></img>
+</p>
+
 ***
 [_**Section 1 SQL**_](./SQL-No_01)
   * [1a.](./SQL-No_01/SQL_1a.sql)  Display the first and last names of all actors from the table `actor`. 
