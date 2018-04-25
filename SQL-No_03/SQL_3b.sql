@@ -1,2 +1,2 @@
 ALTER TABLE sakila.actor
-    UPDATE middle_name SET BLOB
+    MODIFY middle_name BLOB
