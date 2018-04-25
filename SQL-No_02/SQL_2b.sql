@@ -1,6 +1,6 @@
 SELECT
     *
 FROM
-    sakila.actor a
+    sakila.actor
 WHERE
-    last_name LIKE '%GEN%'
+    last_name LIKE '%GEN%';
