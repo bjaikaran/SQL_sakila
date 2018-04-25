@@ -1,10 +1,10 @@
 SELECT
-    title,
-    COUNT(actor_id) AS ActorCount
+    title as 'Film Title',
+    COUNT(actor_id) AS 'No. of Actors in Title'
 FROM
-    film f,
-    film_actor fa
+    film,
+    film_actor
 WHERE
-    f.film_id = fa.film_id
+    film.film_id = film_actor.film_id
 GROUP BY
     title ASC
