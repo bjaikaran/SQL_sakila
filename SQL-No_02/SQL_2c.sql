@@ -1,7 +1,6 @@
 SELECT
     last_name,
-    first_name,
-    actor_id
+    first_name
 FROM
     sakila.actor a
 WHERE
