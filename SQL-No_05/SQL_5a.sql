@@ -1,1 +1,1 @@
-DESCRIBE address
+DESCRIBE address;
