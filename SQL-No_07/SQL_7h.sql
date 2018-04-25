@@ -1,5 +1,6 @@
 SELECT
-    name AS 'Genre', SUM(amount) AS 'Gross'
+    name as 'Genre', 
+    SUM(amount) as 'Gross'
 FROM
     sakila.film f,
     sakila.category c,
@@ -15,4 +16,4 @@ WHERE
     AND r.rental_id = p.rental_id
 GROUP BY name
 ORDER BY SUM(amount) DESC
-LIMIT 5
+LIMIT 5;
