@@ -1,5 +1,5 @@
 SELECT
-    title AS 'English Film Titles starting with "Q" or "K"'
+    title as 'English Film Titles starting with "Q" or "K"'
 FROM
     sakila.film f,
 	sakila.language l
