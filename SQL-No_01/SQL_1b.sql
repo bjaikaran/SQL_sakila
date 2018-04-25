@@ -1,4 +1,4 @@
 SELECT
-	CONCAT(last_name,', ',first_name) as 'Actor Name'
+    CONCAT(last_name, ', ', first_name) as 'Actor Name'
 FROM
-   sakila.actor a
+    sakila.actor;
