@@ -1,2 +1,4 @@
-ALTER TABLE sakila.actor
-    MODIFY middle_name BLOB
+ALTER TABLE
+    sakila.actor
+MODIFY
+    middle_name BLOB
