@@ -1,5 +1,4 @@
 -- This question was nonsense since there was only one actor named Groucho
-USE sakila
 UPDATE
     sakila.actor
 SET
