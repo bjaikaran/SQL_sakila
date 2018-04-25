@@ -10,4 +10,4 @@ FROM
 WHERE
     	cty.country_id = ct.country_id
     AND cty.city_id = a.city_id
-    AND s.address_id = a.address_id
+    AND s.address_id = a.address_id;
