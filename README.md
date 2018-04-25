@@ -4,20 +4,17 @@
   * [1a.](./SQL-No_01/SQL_1a.sql)  Display the first and last names of all actors from the table `actor`. 
   * [1b.](./SQL-No_01/SQL_1b.sql)  Display the first and last name of each actor in a single column in upper case letters. Name the column `Actor Name`.
 ***
-<br></br>
 [_**Section 2 SQL**_](./SQL-No_02)
   * [2a.](./SQL-No_02/SQL_2a.sql)  You need to find the ID number, first name, and last name of an actor, of whom you know only the first name, "Joe." What is one query would you use to obtain this information?  	
   * [2b.](./SQL-No_02/SQL_2b.sql)  Find all actors whose last name contain the letters `GEN`:  	
   * [2c.](./SQL-No_02/SQL_2c.sql)  Find all actors whose last names contain the letters `LI`. This time, order the rows by last name and first name, in that order:
   * [2d.](./SQL-No_02/SQL_2d.sql)  Using `IN`, display the `country_id` and `country` columns of the following countries: Afghanistan, Bangladesh, and China:
 ***
-<br></br>
 [_**Section 3 SQL**_](./SQL-No_03)
   * [3a.](./SQL-No_03/SQL_3a.sql)  Add a `middle_name` column to the table `actor`. Position it between `first_name` and `last_name`. Hint: you will need to specify the data type.  	
   * [3b.](./SQL-No_03/SQL_3b.sql)  You realize that some of these actors have tremendously long last names. Change the data type of the `middle_name` column to `blobs`.
   * [3c.](./SQL-No_03/SQL_3c.sql)  Now delete the `middle_name` column.
 ***
-<br></br>
 [_**Section 4 SQL**_](./SQL-No_04)
   * [4a.](./SQL-No_04/SQL_4a.sql)  List the last names of actors, as well as how many actors have that last name.  	
   * [4b.](./SQL-No_04/SQL_4b.sql)  List last names of actors and the number of actors who have that last name, but only for names that are shared by at least two actors  	
@@ -47,7 +44,6 @@
   * [7g.](./SQL-No_07/SQL_7g.sql)  Write a query to display for each store its store ID, city, and country.  	
   * [7h.](./SQL-No_07/SQL_7h.sql)  List the top five genres in gross revenue in descending order. (**Hint**: you may need to use the following tables: category, film_category, inventory, payment, and rental.)
 ***
-<br></br>
 [_**Section 8 SQL**_](./SQL-No_08)
   * [8a.](./SQL-No_08/SQL_8a.sql)  In your new role as an executive, you would like to have an easy way of viewing the Top five genres by gross revenue. Use the solution from the problem above to create a view. If you haven't solved 7h, you can substitute another query to create a view.  	
   * [8b.](./SQL-No_08/SQL_8b.sql)  How would you display the view that you created in 8a?
