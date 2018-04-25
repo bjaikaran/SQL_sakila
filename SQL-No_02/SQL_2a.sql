@@ -1,6 +1,6 @@
 SELECT
     *
 FROM
-    sakila.actor a
+    sakila.actor
 WHERE
     first_name LIKE 'Joe';
