@@ -5,6 +5,6 @@ FROM
     sakila.film_actor fa,
     sakila.actor a
 WHERE
-    	f.film_id = fa.film_id
+    		f.film_id = fa.film_id
 	AND	fa.actor_id=a.actor_id
 	AND	f.title LIKE '%Alone Trip%';
