@@ -7,3 +7,4 @@ GROUP BY
     last_name
 HAVING
 	COUNT(last_name) >1;
+	
