@@ -3,6 +3,6 @@ UPDATE
 SET 
 	first_name = 'HARPO'
 WHERE
-		first_name = 'GROUCHO'
-	AND	last_name = 'WILLIAMS'
+		last_name = 'WILLIAMS'
+	AND	first_name = 'GROUCHO'
 	AND	actor_id = 172;
