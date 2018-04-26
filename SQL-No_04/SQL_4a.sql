@@ -1,6 +1,6 @@
 SELECT
     last_name,
-    COUNT(last_name) as 'Frequency'
+    COUNT(last_name) as 'frequency'
 FROM
     sakila.actor
 GROUP BY
