@@ -1,6 +1,6 @@
 SELECT
-    name as 'Genre', 
-    SUM(amount) as 'Gross Revenue'
+    c.name as 'Genre', 
+    SUM(p.amount) as 'Gross Revenue'
 FROM
     sakila.film f,
     sakila.category c,
@@ -15,5 +15,5 @@ WHERE
     AND i.inventory_id = r.inventory_id
     AND r.rental_id = p.rental_id
 GROUP BY name
-ORDER BY SUM(amount) DESC
+ORDER BY SUM(p.amount) DESC
 LIMIT 5;
