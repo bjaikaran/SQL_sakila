@@ -1,6 +1,6 @@
 SELECT
     name as 'Genre', 
-    SUM(amount) as 'Gross'
+    SUM(amount) as 'Gross Revenue'
 FROM
     sakila.film f,
     sakila.category c,
