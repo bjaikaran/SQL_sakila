@@ -9,4 +9,7 @@ WHERE
     	c.customer_id = p.customer_id
 GROUP BY
     last_name,
+    first_name
+ORDER BY
+	last_name,
     first_name;
