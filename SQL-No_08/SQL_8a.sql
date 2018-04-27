@@ -1,5 +1,5 @@
 CREATE VIEW top_5_by_genre as
-                SELECT
+                (SELECT
                       c.name as 'Genre', 
                       SUM(p.amount) as 'Gross Revenue'
                   FROM
@@ -17,9 +17,5 @@ CREATE VIEW top_5_by_genre as
                       AND r.rental_id = p.rental_id
                   GROUP BY name
                   ORDER BY SUM(p.amount) DESC
-                  LIMIT 5;
+                  LIMIT 5);
  
- SELECT 
- 	*
- FROM
- 	top_5_by_genre;
