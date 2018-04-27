@@ -42,6 +42,13 @@
   * [7d.](./SQL-No_07/SQL_7d.sql)  Sales have been lagging among young families, and you wish to target all family movies for a promotion. Identify all movies categorized as famiy films.
   * [7e.](./SQL-No_07/SQL_7e.sql)  Display the most frequently rented movies in descending order.  	
   * [7f.](./SQL-No_07/SQL_7f.sql)  Write a query to display how much business, in dollars, each store brought in.
+>  #### Important note regarding Sakila table structure from [MySQL Documentation](https://downloads.mysql.com/docs/sakila-en.pdf):
+>- ***5.1.6 The customer Table*** 
+>    - *The customer table contains a list of all customers.*
+>   - *The customer table is referred to in the payment and rental tables and refers to the address and store tables using foreign keys.*
+>       - *store_id:  A foreign key identifying the customer's “home store.” Customers are not limited to renting only from this store, but this is the store they generally shop at.*
+
+
   * [7g.](./SQL-No_07/SQL_7g.sql)  Write a query to display for each store its store ID, city, and country.  	
   * [7h.](./SQL-No_07/SQL_7h.sql)  List the top five genres in gross revenue in descending order. (**Hint**: you may need to use the following tables: category, film_category, inventory, payment, and rental.)
 ***
