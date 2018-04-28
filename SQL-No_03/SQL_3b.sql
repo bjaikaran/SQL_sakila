@@ -1,4 +1,4 @@
 ALTER TABLE
     sakila.actor
 MODIFY
-    middle_name BLOB
+    middle_name BLOB;
