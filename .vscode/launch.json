@@ -9,7 +9,7 @@
         "type": "extensionHost",
         "request": "launch",
         "name": "Launch Extension",
-        "runtimeExecutable": "\sqlops",
+        "runtimeExecutable": "\\sqlops",
         "args": [
             "--extensionDevelopmentPath=${workspaceFolder}"
         ],
@@ -17,7 +17,7 @@
             "${workspaceFolder}/out/**/*.js"
         ],
         "preLaunchTask": "npm",
-        "timeout": 15000
+        
     },
         {
             "type": "node",
