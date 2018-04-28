@@ -1,14 +1,11 @@
 {
-    "sqltools.connections": [
-        {
-                "name": "MySQL DB",
-                "server": "localhost",
-                "port": 3306,
-                "database": "sakila",
-                "username": "python",
-                "password": "python_mysql_exercise_password",
-                "dialect": "MySQL"
-            }
-        
-    ],
+    "sqltools.connections": {
+        "name": "MySQL DB",
+        "server": "localhost",
+        "port": 3306,
+        "database": "sakila",
+        "username": "python",
+        "password": "python_mysql_exercise_password",
+        "dialect": "MySQL"
+    }
 }
